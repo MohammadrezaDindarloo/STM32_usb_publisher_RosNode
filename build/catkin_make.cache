@@ -1,0 +1,2 @@
+aras_usb_imu-main/ros_nodes/aras_usb_imu
+-DCATKIN_DEVEL_PREFIX=/home/mohammad/stm32/devel -DCMAKE_INSTALL_PREFIX=/home/mohammad/stm32/install -G Unix Makefiles

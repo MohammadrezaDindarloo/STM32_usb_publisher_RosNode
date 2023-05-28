@@ -1,0 +1,8 @@
+prefix=/home/mohammad/stm32/install
+
+Name: aras_usb_imu
+Description: Description of aras_usb_imu
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs message_runtime message_generation sensor_msgs

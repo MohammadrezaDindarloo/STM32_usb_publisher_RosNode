@@ -1,0 +1,9 @@
+<launch>
+  <node name="imu_node" pkg="aras_usb_imu" type='imu_node.py'>
+      <param name="port" value="/dev/ttyACM0" />
+      <param name="baud" value="115200" />
+      <param name="cam_freq" value="10" />
+      <param name="imu_freq" value="100" />
+      <remap from='/aras_imu_node/vio' to='/imu1/raw' />
+  </node>
+</launch>
